@@ -1,0 +1,48 @@
+<img src="/assets/008.jpg" class="banner-img">
+<div class="cb-quote">
+<h2 class="regular-font"><br>
+    "Cooking is one of the greatest gifts you can give to those you love." - Ina Garten
+  </h2>
+  </div>
+<div class="row recipe-card">
+  
+   
+   <div class="col-md-3 col-sm-6" style="width:100%; height:70&;overflow:scroll;padding:20px;">
+
+    <h2 class="regular-font">Viewing all recipes in
+      <br>the
+      {{{ loggedInUser.dataValues.username }}}
+      Cookbook
+      <br><br>
+      <i class="fa-regular fa-heart"></i>
+
+      <a class="btn btn-block add-recipe-btn regular-font" role="button" href="/add-recipe">
+      Add a recipe!
+      </a>
+      
+      {{!-- need to make an append list of recently added recipes? --}}
+      <p class="recipe-list">
+      {{#each recipes}}
+        <a href="/recipes/1">
+        {{recipes.recipe_name}}
+        </a>
+      {{/each}}
+      
+     <br></a>
+     
+      
+      </p>
+      
+    </h2>
+    </div>
+
+
+
+<div class="col-9">
+  
+  <div class="row cb-card">
+{{#each books}}
+  {{> cb-details}}
+{{/each}}
+</div>
+</div>

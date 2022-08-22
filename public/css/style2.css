@@ -1,0 +1,419 @@
+.title-block {
+  position: fixed;
+}
+
+#main-title {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight:200;
+  color:rgb(0, 0, 0);
+  font-size: 30px;
+  margin:15px;
+}
+
+#main-title a {
+  color:teal;
+}
+
+#main-title a:hover {
+  text-decoration: none;
+}
+
+.login-link {
+  color: rgb(59, 176, 199);
+}
+
+.login-link:hover {
+  color:rgb(237, 152, 67);
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 77%;
+}
+
+.fancy-font {
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  padding-top:20px;
+
+}
+
+.regular-font {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight:200;
+  letter-spacing: 0.1em;
+  font-size:20px;
+
+}
+
+#myTopnav {
+  justify-content:space-evenly;
+  position:static;
+}
+
+#myTopnav a {
+  font-family: 'Alata', sans-serif;
+  font-variant:small-caps;
+  color:black;
+  letter-spacing: 0.3em;
+  
+}
+
+#myTopnav a:hover {
+  color:rgb(237, 152, 67);
+  text-decoration: none;
+}
+
+.user-access {
+  float: right;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-right: 20px;
+  font-weight:200;
+}
+
+.user-access a {
+  color:black;
+  font-family: 'Alata', sans-serif;
+  font-variant:all-small-caps;
+  letter-spacing: 0.1em;
+}
+
+.user-access a:hover {
+  color:teal;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+  width:auto;
+  height:auto;
+}
+
+.recipe-card {
+  position:relative;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
+
+
+}
+
+.recipe-little-card {
+  position:relative;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
+  border:solid;
+  margin:5px;
+  width:500px;
+
+}
+
+.recipe-card-title {
+  color: white;
+  background-color: teal;
+  padding:10px;
+  font-family: 'Alata', sans-serif;
+  font-variant: all-small-caps;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+}
+
+
+
+.recipe-card-title:hover {
+  text-decoration: none;
+  color:white;
+  opacity:77%;
+}
+
+.recipe-btn {
+  background-color:lightgray;
+  color:white;
+  margin:10px 0px;
+  font-style:'Alata', sans-serif;
+  font-weight:500;
+  border-radius:8px;
+
+}
+
+.upload-img {
+  height: auto;
+  width: 200px;
+  
+}
+
+.upload-btn {
+  background-color:rgb(59, 176, 199);
+  color:white;
+  margin:10px 0px;
+  font-style:'Alata', sans-serif;
+  font-weight:500;
+  border-radius:8px;
+
+}
+
+.add-photo-btn {
+  background-color:rgb(237, 152, 67);
+  color:white;
+  /* margin:10px 0px; */
+  font-style:'Alata', sans-serif;
+  font-weight:500;
+  border-radius:8px;
+
+}
+
+.cb-card-sm {
+  border-radius: 10px;
+}
+
+.cb-card {
+  position:relative;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+  border-radius:10px;
+}
+
+.cb-descr {
+  padding: 15px;
+}
+
+.description {
+  width:50%;
+  padding-top:20px;
+
+}
+
+.responsive {
+  display: -webkit-inline-box;
+}
+
+.note-textarea,
+.recipe-title {
+  color: #000000;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.note-textarea {
+  resize: none;
+  font-size: 16px;
+  /* padding: 20px 0px; */
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight:200;
+  letter-spacing: 0.2em;
+
+}
+
+.recipe-title {
+  width:100%;
+  height: 50px;
+  font-size: 3rem;
+  font-family: 'Alata', sans-serif;
+  font-variant: all-small-caps;
+  letter-spacing: 0.07em;
+}
+
+.dropdown {
+  align-items: center;
+  font-size:16px;
+}
+
+#dropdownMenubutton {
+  color:teal;
+  background-color:white;
+  border:none;
+  text-align:center;
+  position:relative;
+  border-radius:8px;
+  font-size:17px;
+}
+
+.category {
+  color:teal;
+  border-radius:8px;
+  font-size:17px;
+  font-style: 'Lexend Deca', sans-serif;
+  font-weight: 600;
+  letter-spacing:0.07em;
+}
+
+
+select:active {
+  background-color: white;
+}
+
+.add-recipe-btn {
+  color:white;
+  background-color:rgb(237, 152, 67);
+  margin-bottom:20px;
+}
+
+.add-recipe-btn:hover {
+  color:white;
+}
+
+.add-recipe-vp {
+  margin: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+
+.add-recipe-title {
+  font-size:40px;
+  margin:10px;
+  text-align:center;
+  padding-top:20px;
+  color:teal;
+}
+
+.recipe-img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.recipe-list a {
+  color: rgb(59, 176, 199);
+  font-family: 'Alata', sans-serif;
+  font-weight: 200;
+  font-variant: all-small-caps;
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  line-height:220%;
+}
+
+.recipe-list a:hover {
+  text-decoration: none;
+}
+
+
+
+.join-btn {
+  font-family:'Alata', sans-serif;
+  background-color:teal;
+  color:white;
+  float:right;
+  margin:10% 0%;
+}
+
+.join-btn:hover {
+  opacity: 77%;
+}
+
+
+#sign-up-section {
+  position:absolute;
+  z-index: 1;
+  margin:15%;
+  border:solid;
+  border-radius:50px;
+  border-color: lightgray;
+  padding:25%;
+  box-shadow: 0px 3px 80px white;
+  background-color: white;
+  font-family:'Lexend Deca', sans-serif;
+}
+
+
+.recipe-name {
+  font-family: 'Lexend Deca Light', sans-serif;
+  font-size: 24px;
+  
+}
+
+.recipe-info {
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+}
+
+.recipe-list {
+  color:rgb(13, 87, 216);
+  font-size:16px;
+}
+
+
+.cb-quote {
+  margin-left:47%;
+}
+
+.card {
+  
+}
+
+/* LOGIN.HANDLEBARS*/
+
+
+.login-card {
+
+  padding-top: 20px;
+  width: 40%;
+}
+
+.login-form-btn {
+  background-color:rgb(59, 176, 199);
+  color:white;
+}
+
+.signup-form-btn {
+  background-color:rgb(237, 152, 67);
+  color:white;
+}
+
+.login-cb-name {
+  color:rgb(59, 176, 199);
+
+}
+
+.page-title-login {
+  text-align:center;
+}
+
+.login-cb-name:hover {
+  text-decoration: none;
+  color:rgb(237, 152, 67);
+}
+
+
+
+.fa-heart {
+  color: rgb(203, 29, 119);
+  margin-bottom:20px;
+}
+
+.fa-kitchen-set, .fa-book-open{
+  color: gray;
+}
+
+.banner-img {
+  width:105%;
+  height:auto;
+  position:relative;
+}
+
+.marquee {
+  overflow: hidden;
+  margin: 0 auto;
+  white-space: inherit;
+  z-index: 2;
+}
+.marquee span {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  position:fixed;
+  left: 100%;
+  animation: scrolling 30s linear infinite;
+}
+
+@keyframes scrolling {
+  0%   { left: 0%; }
+  100% { left: -208%; }
+}
